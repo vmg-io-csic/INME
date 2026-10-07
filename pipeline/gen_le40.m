@@ -17,4 +17,4 @@ for g=1:numel(G)
   end
   fprintf('%s LE40\n',G(g).tag);
 end
-disp('LE40 GENERADO');
+disp('LIGHT-EDGE SET GENERATED');

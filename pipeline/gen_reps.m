@@ -67,6 +67,6 @@ for g=1:numel(G)
       'speed_px_per_frame',c.speed_dps*c.px_per_deg/fr,'gt_direction_deg',0);
     dnn_v25_save(e,dnn_v25_broadcast(mI,NR),x);
   end, end
-  fprintf('%s generado\n', tag);
+  fprintf('%s generated\n', tag);
 end
-disp('GENERACION TERMINADA');
+disp('GENERATION DONE');

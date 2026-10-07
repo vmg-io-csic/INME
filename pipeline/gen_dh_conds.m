@@ -15,6 +15,6 @@ for g=1:numel(G)
       'px_per_deg',c.px_per_deg,'framerate',c.framerate,'dov',dov,'N_cols',N,'N_rows',NR,'meanL',meanL,'tf_hz',c.tf_hz);
     dnn_v25_save(e,dnn_v25_broadcast(mI,NR),x);
   end, end, end
-  fprintf('%s DH conds generado\n',tag);
+  fprintf('%s interaction conditions generated\n',tag);
 end
-disp('DH CONDS GENERADO');
+disp('INTERACTION CONDITIONS GENERATED');

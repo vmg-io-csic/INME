@@ -19,4 +19,4 @@ for g=1:numel(G)
   end
   fprintf('%s uneven15\n',G(g).tag);
 end
-disp('UNEVEN15 GENERADO');
+disp('UNEVEN SQUARE SET GENERATED');

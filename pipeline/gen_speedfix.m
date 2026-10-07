@@ -48,4 +48,4 @@ for g=1:numel(G)
   end
   fprintf('%s contraste/oponencia/missing\n',tag);
 end
-disp('SPEEDFIX GENERADO');
+disp('SPEEDFIX SET GENERATED');

@@ -13,6 +13,6 @@ for g=1:numel(G)
       'speed_px_per_frame',c.speed_dps*c.px_per_deg/fr,'sigma_t_ms',c.sigma_t_ms,'gt_direction_deg',0);
     dnn_v25_save(fullfile(out,nm),dnn_v25_broadcast(mI,NR),x);
   end, end
-  fprintf('%s masking extra generado\n',G(g).tag);
+  fprintf('%s masking extra set generated\n',G(g).tag);
 end
-disp('GENERACION TERMINADA');
+disp('GENERATION DONE');

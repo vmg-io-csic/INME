@@ -1,5 +1,7 @@
 import numpy as np, glob, re
-exec(open('/tmp/claude-1000/-home-mberraquero/c2798504-67d8-481a-a009-5fc07ff6d143/scratchpad/build_tables.py').read().split('out=[]')[0])
+from pathlib import Path
+# Reuse the loading helpers defined at the top of build_tables.py.
+exec(open(Path(__file__).resolve().parent / 'build_tables.py').read().split('out=[]')[0])
 sig=[10,25,37.5,100]; CN=['S1','S3','CS','CSr','CM']
 LAB={'S1':'S1','S3':'S3','CS':'CS','CSr':'CSr','CM':'CM'}
 def gt(c,i): return 180 if (c=='CSr' and i==0) else 0
