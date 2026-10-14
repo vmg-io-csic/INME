@@ -1,4 +1,4 @@
-# INME — a canonical neural circuit for motion direction estimation
+# INME: a canonical neural circuit for motion direction estimation
 
 INME (intrinsically nonlinear motion estimation) is a neural circuit model that
 estimates the direction of visual motion using only cells selective to cardinal
